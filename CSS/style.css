@@ -1,0 +1,75 @@
+.font
+{
+    font-family: 'Baloo Chettan 2', sans-serif;
+}
+.box {
+    box-shadow: 0 0 0.25em 0.25em rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    max-width: 30rem;
+}
+
+
+.title
+{
+    color: white;
+    background-color: #0d6efd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.passwordLenghtLabel:hover
+{
+    cursor: pointer;
+}
+
+.errorBox
+{
+    border-color: red;
+}
+ 
+.bi
+{
+    font-size: x-large;
+    color: white;
+}
+
+.bi:hover
+{
+    cursor:pointer;
+}
+
+.bi-clipboard:hover
+{   
+    animation: tilt .3s linear;
+}
+
+.bi-arrow-clockwise:hover
+{
+    transform: rotate(360deg);
+    transition: .4s linear;
+}
+
+.bi:active
+{
+    transform: scale(0.8); 
+    transition: .4s linear;
+     
+}
+
+
+@keyframes tilt
+{
+    
+    0% { transform: rotate(0deg) }
+    25% { transform: rotate(10deg) }
+    50% { transform: rotate(0deg) }
+    75% { transform: rotate(-10deg) }
+    100% { transform: rotate(0deg) }
+}  
+
+
